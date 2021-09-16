@@ -1,0 +1,154 @@
+#threed{
+  width: 100%;
+}
+#border,#border1{
+    border: 2px dashed black;
+    border-radius: 25px;  
+}
+.top{
+  margin-top: 85px;
+}
+h1{
+  background-color: cornflowerblue;
+  color: black;
+  padding: 10px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+body {
+    margin: 0;
+}
+
+#currentRgb{
+  font-size: 1.5rem;
+}
+
+.topic{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#firstFixed,#secFixed{
+  font-size: 1rem;
+  font-weight:500
+}
+#current,#avge{
+  padding-top: 51px;
+}
+#imageInput,#image{
+  display: flex;
+  justify-content: center;
+}
+#upload,#uploads{
+  /* text-align: center; */
+  font-size: 3rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
+.btn{
+  border-radius:25px ;
+}
+img{
+  width:6%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1275px)  {
+  #myCanvas{
+    margin-left: 1.5%;
+  }
+  #Canvas{
+    margin-left: 1.5%;
+  }
+  .firstCanva{
+    position: relative;
+    left: 196px;
+  }
+  #border{
+    width: 150%;
+    height: 90%;
+  }
+  .d{
+    right: 300px;
+    top: 800px;
+    position: relative;
+  }
+  #border1{
+    width: 150%;
+    height: 90%;
+  }
+  #sectBtn{
+    position: relative;
+    left: 100px;
+  }
+  #firstBtn{
+    position: relative;
+    left: 100px;
+  }
+  #upload,#uploads{
+    position: relative;
+    left: 1px;
+  }
+}
+@media only screen and (min-width: 1074px) and (max-width: 1160px)  {
+  .d{
+    right: 330px;
+    top: 800px;
+    position: relative;
+  }
+  #sectBtn{
+    position: relative;
+    left: 100px;
+  }
+  #firstBtn{
+    position: relative;
+    left: 100px;
+  }
+  #upload,#uploads{
+    position: relative;
+    left: 1px;
+  }
+}
+@media only screen and (min-width: 1161px) and (max-width: 1195px)  {
+  .d{
+    right: 386px;
+    top: 800px;
+    position: relative;
+  }
+  #sectBtn{
+    position: relative;
+    left: 100px;
+  }
+  #firstBtn{
+    position: relative;
+    left: 100px;
+  }
+  #upload,#uploads{
+    position: relative;
+    left: 1px;
+  }
+}
+@media only screen and (min-width: 1196px) and (max-width: 1274px)  {
+  .d{
+    right: 387px;
+    top: 800px;
+    position: relative;
+  }
+  #sectBtn{
+    position: relative;
+    left: 100px;
+  }
+  #firstBtn{
+    position: relative;
+    left: 100px;
+  }
+  #upload,#uploads{
+    position: relative;
+    left: 1px;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 649px)  {
+  #border,#border1{
+    width: 800px;
+  }
+}

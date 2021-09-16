@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Finder</title>
+    <link rel="stylesheet" href="./assests/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/fonts/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container-fluid ">
+        <h1 class="text-center fixed-top">Colour Finder</h1>
+        <div class="row top">
+          <div class="col-lg-3 col-md-6 topic">
+            <span class="mt-5">Current Colour</span>
+            <canvas id= "current" >
+                You browser does not support HTML5 canvas
+            </canvas>
+          </div>
+          <div class="col-lg-3 col-md-6 topic" >
+            <span>Average Colour</span>
+            <p id="firstFixed" class="mt-2"></p>
+            <canvas id= "curr" >
+                You browser does not support HTML5 canvas
+            </canvas>
+          </div>
+          <div class="col-lg-3 col-md-6 topic" >
+            <span>Current Colour</span>
+            <canvas id= "avge">
+                You browser does not support HTML5 canvas
+            </canvas>
+          </div>
+          <div class="col-lg-3 col-md-6 topic" >
+            <span>Average Colour</span>
+            <p id="secFixed" class="mt-2"></p>
+            <canvas id= "avg">
+                You browser does not support HTML5 canvas
+            </canvas>
+
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="currentRgb" class="text-center mt-2 mb-2"></div>
+            </div>
+        </div>
+        <div class="row text-center tool">
+            <div class="col-4 mb-3 "><button class="btn btn-primary" id="default">Default Rec</button></div>
+            <div class="col-4 mb-3 "><button class="btn btn-primary " id="small">Small Rec</button></div>
+            <div class="col-4 mb-3 "><button class="btn btn-primary" id="extrasmall">Extra Small Rec</button></div>
+        </div>
+        <div class="row mt-3 text-center ">
+            <div class="col-lg-6 sec col-md-12 firstCanva">
+                <button class="btn btn-primary mb-3" id="firstBtn" onclick="firstUpload()">Upload Image</button>
+          
+                <div id="border" >
+                    <i class="fa fa-cloud-upload" id="upload" aria-hidden="true"></i>
+                    <input type="file" id="imageInput" accept = "image/*" hidden>
+                    <div class="pt-5 pl-4" >
+                        <canvas id= "myCanvas" >
+                            You browser does not support HTML5 canvas
+                        </canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 d">
+                <button class="btn btn-primary mb-3"  id="sectBtn" onclick="secUpload()">Upload Image</button>
+                <div id="border1" >
+                    <i class="fa fa-cloud-upload" id="uploads" aria-hidden="true"></i>
+                    <input type="file" id="image" accept = "image/*" hidden>
+                    <div class="pt-5 pl-4">
+                        <canvas id= "Canvas">
+                            You browser does not support HTML5 canvas
+                        </canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer text-center">
+                <h6 class="text-center mt-5">Designed & Developed </h6>
+                <img src="./assests/css/was1.png" alt="">
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assests/css/bootstrap/jquery.min.js"></script>
+    <script src="./assests/css/bootstrap/popper.min.js"></script>
+    <script src="./assests/css/bootstrap/bootstrap.min.js"></script>
+    <script src="./assests/js/main.js"></script>
+</body>
+</html>
